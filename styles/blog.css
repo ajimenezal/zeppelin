@@ -381,8 +381,8 @@ section
 .main_nav ul li a
 {
 	position: relative;
-	font-size: 16px;
-	color: #FFFFFF;
+	font-size: 20px;
+	color: #a2007f;
 	padding-left: 26px;
 	padding-right: 23px;
 	z-index: 1;
@@ -556,7 +556,7 @@ section
 	padding-right: 40px;
 	padding-top: 50px;
 	padding-bottom: 50px;
-	border-bottom: solid 5px #de4f32;
+	border-bottom: solid 5px #c11490;
 }
 .menu_nav ul li
 {
@@ -596,7 +596,7 @@ section
 }
 .menu_nav ul li a:hover
 {
-	color: #de4f32;
+	color: #c11490;
 }
 
 /*********************************
