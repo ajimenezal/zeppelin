@@ -846,17 +846,18 @@ section
 .tab
 {
 	height: 50px;
-	background: #de4f32;
+	background: #000000;
 	font-size: 14px;
 	color: #FFFFFF;
 	line-height: 46px;
-	padding-left: 42px;
-	padding-right: 42px;
+	padding-left: 33px;
+	padding-right: 33px;
 	text-align: center;
 	cursor: pointer;
 	white-space: nowrap;
 	margin-bottom: 9px;
-	border: solid 2px #de4f32;
+	border: solid 2px #000000;
+        border-radius: 20px;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -867,9 +868,15 @@ section
 {
 	margin-right: 8px;
 }
+
+.tab:hover
+{
+    background: #a2007f;
+}
+
 .tab.active
 {
-	background: transparent;
+	background: #a2007f;
 	color: #de4f32;
 }
 .tab_panels

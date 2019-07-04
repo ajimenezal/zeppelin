@@ -650,6 +650,19 @@ section
 	padding-top: 102px;
 	padding-bottom: 122px;
 }
+
+.cursos_menu
+{
+	background: #000000;
+	padding-top: 40px;
+	padding-bottom: 50px;
+}
+
+.cursos_menu img 
+{
+    width: 100%;
+    height: 90%;
+}
 .single_info
 {
 	width: calc(100% + 115px);
